@@ -23,7 +23,7 @@
 
 ## 💻 Project
 
-Application to add your age in minutes
+Quiz App to check your knowledge about some flags of some countries
 
 
 <p align="center">
