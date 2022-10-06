@@ -49,6 +49,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         tvOptionTwo?.setOnClickListener(this)
         tvOptionThree?.setOnClickListener(this)
         tvOptionFour?.setOnClickListener(this)
+        btnSubmit?.setOnClickListener(this)
 
         mQuestionList = Constants.getQuestions();
         setQuestion()
@@ -128,6 +129,9 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                 tvOptionFour?.let {
                     selectedOptionView(it, 4)
                 }
+            }
+            R.id.btn_submit -> {
+              // TODO: "implement button submit"
             }
         }
     }
