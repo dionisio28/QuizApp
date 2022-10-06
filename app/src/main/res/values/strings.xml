@@ -4,4 +4,5 @@
     <string name="card_subtitle">Please enter your name</string>
     <string name="card_title">Welcome</string>
     <string name="main_screen_title">Quiz App!</string>
+    <string name="quiz_image">Quiz Image</string>
 </resources>
