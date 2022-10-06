@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
             if(inputName.text.toString().isNotEmpty()){
 
                 val intent = Intent(this, QuizQuestionsActivity::class.java)
+                intent.putExtra(Constants.USER_NAME, inputName.text.toString())
                 startActivity(intent)
                 finish() // For close this activity
 
